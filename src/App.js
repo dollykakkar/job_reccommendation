@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { FeaturedEmployers } from "./Pages/FeaturedEmployers";
+import { JobType } from "./Pages/JobType";
+import { LatestJobs } from "./Pages/LatestJobs";
+import { NewJobs } from "./Pages/NewJobs";
+import { RecentJobs } from "./Pages/RecentJobs";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <RecentJobs/>
+      <JobType/>
+      <FeaturedEmployers/>
+      <LatestJobs/>
+      <NewJobs/>
+    </>
   );
 }
 
