@@ -11,7 +11,7 @@ export const JobAdvtCard = (props) => {
           <h2 className="font-medium text-xl">{jobTitle}</h2>
           <p
             className={
-              jobTitle == "Fulltime"
+              jobTitle === "Fulltime"
                 ? "bg-[#ff392b] p-2 rounded-xl text-sm"
                 : "bg-[#ffa32b] px-2 py-1 text-sm font-medium rounded-xl"
             }

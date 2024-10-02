@@ -9,7 +9,7 @@ export const EmployeeProfileCard = (props) => {
     <div className='w-80 border-2 flex flex-col justify-center items-center gap-2 rounded-md'>
       <div className= ' p-4 flex flex-col justify-center items-center gap-2'>
       <div className='w-32 h-32 rounded-full overflow-hidden'>
-            <img src = {profilePic} alt="Profile Picture" className='w-full h-full object-cover'/>
+            <img src = {profilePic} alt="Profile" className='w-full h-full object-cover'/>
        </div>
        <h2 className='font-semibold text-2xl'>{name}</h2>
        <p className='text-gray-800'>{tech} ({exprience} Exp)</p>

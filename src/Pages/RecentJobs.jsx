@@ -31,7 +31,7 @@ export const RecentJobs = () => {
           <JobAdvtCard key={index} data={job} />
         ))}
       </div>
-      <button className="border-2 border-blue-800  font-semibold py-2 px-4 text-blue-800  hover:bg-blue-800  hover:text-white">
+      <button className="border-2 border-blue-800  font-semibold py-2 px-4 rounded-lg text-blue-800  hover:bg-blue-800  hover:text-white">
         Show more 
       </button>
     </div>
