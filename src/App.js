@@ -1,4 +1,5 @@
 import { Footer } from "./Components/Footer";
+import { AboutUs } from "./Pages/AboutUs";
 import { ChooseOneHireOrGetHired } from "./Pages/ChooseOneHireOrGetHired";
 import { FeaturedEmployers } from "./Pages/FeaturedEmployers";
 import { HeroSection } from "./Pages/HeroSection";
@@ -12,7 +13,7 @@ import { TopCompanies } from "./Pages/TopCompanies";
 function App() {
   return (
     <>
-      <HeroSection/>
+      {/* <HeroSection/>
       <JobCategory/>
       <RecentJobs/>
       <JobType/>
@@ -21,7 +22,8 @@ function App() {
       <TopCompanies/>
       <NewJobs/>
       <ChooseOneHireOrGetHired/>
-      <Footer/>
+      <Footer/> */}
+      <AboutUs/>
     </>
   );
 }

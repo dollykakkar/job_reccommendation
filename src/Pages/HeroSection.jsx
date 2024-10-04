@@ -12,7 +12,7 @@ export const HeroSection = () => {
       <div className="flex flex-col justify-around gap-20 items-center py-20 relative z-10 text-white">
         <CompoHeading data={compoHeading} />
 
-        <div className="flex w-full justify-center">
+        <div className="flex w-full justify-center text-black">
             <input type="text" placeholder="Search Jobs" className="h-14 w-60 p-1 rounded-l-md border-r-2"/>
             <input type="text" placeholder="Select Loction" className=" h-14 w-60 p-1 border-r-2" />
             <input type="text" placeholder="Select Category" className="h-14 w-60 p-1"/>
