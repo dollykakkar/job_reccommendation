@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { Footer } from "./Components/Footer";
+import { AboutUs } from "./Pages/AboutUs";
+import { ChooseOneHireOrGetHired } from "./Pages/ChooseOneHireOrGetHired";
+import { FeaturedEmployers } from "./Pages/FeaturedEmployers";
+import { HeroSection } from "./Pages/HeroSection";
+import { JobCategory } from "./Pages/JobCategory";
+import { JobType } from "./Pages/JobType";
+import { LatestJobs } from "./Pages/LatestJobs";
+import { NewJobs } from "./Pages/NewJobs";
+import { RecentJobs } from "./Pages/RecentJobs";
+import { TopCompanies } from "./Pages/TopCompanies";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <HeroSection/>
+      <JobCategory/>
+      <RecentJobs/>
+      <JobType/>
+      <FeaturedEmployers/>
+      <LatestJobs/>
+      <TopCompanies/>
+      <NewJobs/>
+      <ChooseOneHireOrGetHired/>
+      <Footer/> */}
+      <AboutUs/>
+    </>
   );
 }
 
