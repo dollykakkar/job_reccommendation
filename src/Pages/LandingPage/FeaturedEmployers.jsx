@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import { CompoHeading } from '../Components/CompoHeading'
-import img from "../Images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg"
-import img1 from "../Images/jurica-koletic-7YVZYZeITc8-unsplash.jpg"
-import { EmployeeProfileCard } from '../Components/EmployeeProfileCard'
+import { CompoHeading } from '../../Components/CompoHeading'
+import img from "../../Images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg"
+import img1 from "../../Images/jurica-koletic-7YVZYZeITc8-unsplash.jpg"
+import { EmployeeProfileCard } from '../../Components/EmployeeProfileCard'
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 export const FeaturedEmployers = () => {
