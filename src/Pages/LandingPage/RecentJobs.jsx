@@ -1,6 +1,6 @@
 import React from "react";
-import { JobAdvtCard } from "../Components/JobAdvtCard";
-import { CompoHeading } from "../Components/CompoHeading";
+import { JobAdvtCard } from "../../Components/JobAdvtCard";
+import { CompoHeading } from "../../Components/CompoHeading";
 
 export const RecentJobs = () => {
   const recJobs = [

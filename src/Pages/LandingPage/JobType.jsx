@@ -1,6 +1,6 @@
 import React from "react";
-import { CompoHeading } from "../Components/CompoHeading";
-import { JobTypeCard } from "../Components/JobTypeCard";
+import { CompoHeading } from "../../Components/CompoHeading";
+import { JobTypeCard } from "../../Components/JobTypeCard";
 import { ImHome2 , ImOffice } from "react-icons/im";
 import { FaCalendarAlt } from "react-icons/fa";
 import { GiSandsOfTime } from "react-icons/gi";

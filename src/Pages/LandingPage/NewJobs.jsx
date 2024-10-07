@@ -1,7 +1,7 @@
 import React from 'react'
-import { CompoHeading } from '../Components/CompoHeading'
-import img from '../Images/pngwing.com.png'
-import { NewJobCard } from '../Components/NewJobCard'
+import { CompoHeading } from '../../Components/CompoHeading'
+import img from '../../Images/pngwing.com.png'
+import { NewJobCard } from '../../Components/NewJobCard'
 
 export const NewJobs = () => {
     const compoHeading = {
