@@ -1,6 +1,8 @@
+
 import { Route, Router, Routes } from "react-router-dom";
 import { Footer } from "./Components/Footer";
 import NavBar from "./Components/NavBar";
+import { Footer } from "./Components/Footer";
 import { AboutUs } from "./Pages/AboutUs";
 import { ChooseOneHireOrGetHired } from "./Pages/ChooseOneHireOrGetHired";
 import { FeaturedEmployers } from "./Pages/FeaturedEmployers";
@@ -20,6 +22,10 @@ function App() {
       <NavBar/>
       <SideBar/>
       {/* <FirstDashboard/> */}
+
+function App() {
+  return (
+    <>
       {/* <HeroSection/>
       <JobCategory/>
       <RecentJobs/>
@@ -33,6 +39,8 @@ function App() {
       {/* <AboutUs/> */}
     </div>
       
+      <AboutUs/>
+    </>
   );
 }
 
