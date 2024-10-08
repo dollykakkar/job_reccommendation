@@ -44,21 +44,21 @@ const NavBar = () => {
             </li>
 
             {/* Buttons for mobile view */}
-            <div className="flex flex-col md:hidden space-y-4">
+            <Link to={"/submitjob"} className="flex flex-col md:hidden space-y-4">
               <button className="h-10 w-28 rounded bg-orange-500 cursor-pointer text-white text-base font-bold hover:bg-orange-400">
                 Submit a Job
               </button>
               <Link className="h-10 w-32 rounded cursor-pointer text-white text-base font-bold bg-blue-600 hover:bg-blue-400">
                 SignUp
               </Link>
-            </div>
+            </Link>
           </ul>
 
           {/* Buttons for desktop view */}
           <div className="hidden md:flex space-x-6">
-            <button className="h-10 w-28 rounded bg-orange-500 cursor-pointer text-white text-base font-bold hover:bg-orange-400">
+            <Link to={"/submitjob"} className="h-10 w-28 rounded bg-orange-500 cursor-pointer text-white text-base font-bold hover:bg-orange-400">
               Submit a Job
-            </button>
+            </Link>
             <Link to={"/signup"} className="h-10 w-32 rounded cursor-pointer text-white text-base p-1 pl-9 font-bold bg-blue-600 hover:bg-blue-400">
               Register
             </Link>
