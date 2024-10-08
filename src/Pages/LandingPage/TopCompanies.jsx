@@ -1,6 +1,6 @@
 import React from 'react'
-import { CompoHeading } from '../Components/CompoHeading'
-import img from '../Images/pngwing.com.png'
+import { CompoHeading } from '../../Components/CompoHeading'
+import img from '../../Images/pngwing.com.png'
 
 export const TopCompanies = () => {
     const compoHeading = {

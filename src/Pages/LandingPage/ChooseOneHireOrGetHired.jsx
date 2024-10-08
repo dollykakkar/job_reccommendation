@@ -1,7 +1,7 @@
 import React from "react";
-import { CompoHeading } from "../Components/CompoHeading";
-import getHired from "../Images/—Pngtree—job bag icon_4945956.png";
-import hire from "../Images/—Pngtree—job vacancy with join our_5330648.png";
+import { CompoHeading } from "../../Components/CompoHeading";
+import getHired from "../../Images/—Pngtree—job bag icon_4945956.png";
+import hire from "../../Images/—Pngtree—job vacancy with join our_5330648.png";
 
 export const ChooseOneHireOrGetHired = () => {
   const compoHeading = {

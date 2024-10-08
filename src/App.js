@@ -1,4 +1,5 @@
 
+
 import { Route, Router, Routes } from "react-router-dom";
 import SubmitJob from "./Pages/Submitjob/Submit_job";
 // import { Footer } from "./Components/Footer";
@@ -17,10 +18,19 @@ import SubmitJob from "./Pages/Submitjob/Submit_job";
 // import FirstDashboard from "./Pages/Dashboard.js/FirstDashboard";
 // import SideBar from "./Pages/Dashboard.js/SideBar";
 
+import { Routes, Route } from "react-router-dom";
+import { Footer } from "./Components/Footer";
+import { AboutUs } from "./Pages/AboutUs";
+import { LandingPage } from "./Pages/LandingPage";
+import { MyDashboard } from "./Pages/Dashboard/MyDashboard";
+import { LogIn } from "./Pages/LogIn";
+import { SignUp } from "./Pages/SignUp";
+import { ResetPassword } from "./Pages/ResetPassword";
 
 function App() {
   return (
     <>
+
       {/* <HeroSection/>
       <JobCategory/>
       <RecentJobs/>
@@ -35,6 +45,16 @@ function App() {
         <SubmitJob/>
       
       {/* <AboutUs/> */}
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/dashboard" element={<MyDashboard/>}/>
+        <Route path="/login" element={<LogIn/>}/>
+        <Route path="/signup" element={<SignUp/>}/>
+        <Route path="/resetpassword" element={<ResetPassword />} /> 
+      </Routes>
+      <Footer />
+
     </>
   );
 }
