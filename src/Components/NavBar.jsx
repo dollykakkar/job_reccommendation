@@ -10,7 +10,7 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="bg-white shadow-lg h-20">
+      <nav className="bg-white shadow-lg h-20 ">
         <div className="container mx-auto flex justify-between items-center py-4 px-4 md:px-8">
           {/* Logo */}
           <div className="text-2xl font-bold text-blue-500">
@@ -31,16 +31,16 @@ const NavBar = () => {
             }`}
           >
             <li className="hover:text-blue-600">
-              <Link to="">Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li className="hover:text-blue-600">
-              <Link to="">About Us</Link>
+              <Link to="/about">About Us</Link>
             </li>
             <li className="hover:text-blue-600">
-              <Link to="">My Dashboard</Link>
+              <Link to="/dashboard">My Dashboard</Link>
             </li>
             <li className="hover:text-blue-600">
-              <Link to="">Contact Us</Link>
+              <Link to="/contact">Contact Us</Link>
             </li>
 
             {/* Buttons for mobile view */}
@@ -48,9 +48,9 @@ const NavBar = () => {
               <button className="h-10 w-28 rounded bg-orange-500 cursor-pointer text-white text-base font-bold hover:bg-orange-400">
                 Submit a Job
               </button>
-              <button className="h-10 w-32 rounded cursor-pointer text-white text-base font-bold bg-blue-600 hover:bg-blue-400">
-                Create Resume
-              </button>
+              <Link className="h-10 w-32 rounded cursor-pointer text-white text-base font-bold bg-blue-600 hover:bg-blue-400">
+                SignUp
+              </Link>
             </div>
           </ul>
 
@@ -59,9 +59,9 @@ const NavBar = () => {
             <button className="h-10 w-28 rounded bg-orange-500 cursor-pointer text-white text-base font-bold hover:bg-orange-400">
               Submit a Job
             </button>
-            <button className="h-10 w-32 rounded cursor-pointer text-white text-base font-bold bg-blue-600 hover:bg-blue-400">
-              Create Resume
-            </button>
+            <Link to={"/signup"} className="h-10 w-32 rounded cursor-pointer text-white text-base p-1 pl-9 font-bold bg-blue-600 hover:bg-blue-400">
+              Register
+            </Link>
           </div>
         </div>
       </nav>

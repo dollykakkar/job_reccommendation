@@ -17,22 +17,21 @@ export const SideBarDashboard = () => {
         <h3 className="font-semibold">Christopher Campbell</h3>
       </div>
       <div className="flex flex-col gap-4">
-        <Link className="p-2 hover:bg-blue-500 hover:text-white rounded-sm font-medium">
+        <Link to="/profile" className="p-2 hover:bg-blue-500 hover:text-white rounded-sm font-medium">
             My Profile
         </Link>
-        <Link className="p-2 hover:bg-blue-500 hover:text-white rounded-sm font-medium">
+        <Link to="/jobs" className="p-2 hover:bg-blue-500 hover:text-white rounded-sm font-medium">
             My Jobs
         </Link>
-        <Link className="p-2 hover:bg-blue-500 hover:text-white rounded-sm font-medium">
+        <Link to="/applications" className="p-2 hover:bg-blue-500 hover:text-white rounded-sm font-medium">
             My Applications
         </Link>
-        <Link className="p-2 hover:bg-blue-500 hover:text-white rounded-sm font-medium">
+        <Link to="/settings" className="p-2 hover:bg-blue-500 hover:text-white rounded-sm font-medium">
             My Settings
         </Link>
-        <Link className="p-2 hover:bg-blue-500 hover:text-white rounded-sm font-medium">
+        <Link to="/login" className="p-2 hover:bg-blue-500 hover:text-white rounded-sm font-medium">
             Logout
         </Link>
-
       </div>
     </div>
   );
