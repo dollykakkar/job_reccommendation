@@ -1,3 +1,4 @@
+
 import SubmitJob from "./Pages/Submitjob/Submit_job";
 import { Routes, Route } from "react-router-dom";
 import { Footer } from "./Components/Footer";
@@ -11,6 +12,7 @@ import NavBar from "./Components/NavBar";
 import MyJobs from "./Pages/Dashboard/MyJobs";
 import Setting from "./Pages/Dashboard/Setting";
 import ContactUs from "./Pages/ContactUs";
+// import SubmitJob from "./Pages/Submitjob/Submit_job";
 
 function App() {
   return (
@@ -28,9 +30,7 @@ function App() {
           <Route path="/contact" element={<ContactUs/>}/>
           <Route path="/submitjob" element={<SubmitJob/>}/>
         </Routes>
-        {/* <ContactUs/> */}
-        {/* <MyJobs/> */}
-        {/* <Setting/> */}
+       
         <Footer />
       </>
 
